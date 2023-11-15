@@ -9,7 +9,7 @@ instructions = [
     'bring me that apple sitting on the table',
     'please pass the butter'
 ]
-
+print(instructions)
 # compute the train logits
 train_logits = model.train(video, instructions)
 
